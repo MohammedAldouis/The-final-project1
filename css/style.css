@@ -1,0 +1,102 @@
+body{
+    background-color: black;
+}
+.logo{
+    width: 100px;
+    float: left;
+    
+}
+img{
+    width: 200px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    margin: 10px;
+    
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+div ul {
+    background-color: rgb(254, 255, 255) ;
+    float: left;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}
+.h p{
+    color: white;
+    width: 90%;
+    margin-left: 200px;
+    font-size: 20px;
+}
+h2 {
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+.one{
+    width: 100%;
+    text-align: center;
+
+}
+
+.one div{
+    margin: 2%;
+    width: calc(70% / 4);
+    background-color: rgb(3, 3, 3);
+    float: left;
+    margin-top: 10px;
+    
+}
+
+img{
+    width: 100%;
+  }
+.piece{
+      color: white;
+      font-size: 20px;
+}
+
+a{
+    color: rgb(253, 252, 252);
+}
+
+input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: white;
+    background-image: url('');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    height: 30px;
+    
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+   
+  }
+
+  .in-search{
+      float: left;
+      
+  }
+  .search{
+      width: 30px;
+  }

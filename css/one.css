@@ -1,0 +1,23 @@
+img{
+    text-align: center;
+    border-radius:50% ;
+
+}
+body{
+    background-color: rgb(18, 92, 76);
+    margin: 50px;
+}
+p{
+    background-color: rgb(8, 8, 8);
+    color: rgb(24, 119, 99);
+    font-size: 20px;
+    
+    margin: 300px;
+    border-radius: 20px 20px 0px 0px ;padding: 20px; 
+    margin-bottom: 0px; 
+    text-align: center;
+    border-bottom: 3px rgb(18, 92, 76) solid;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
