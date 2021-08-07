@@ -1,149 +1,139 @@
-body{
-    background-color: black;
-}
-.logo{
-    width: 100px;
-    float: left;
-    
-}
-a.home ,a.anime:hover{
-    border: 2px solid;
-    padding: 1px;
-}
-div #icon{
-    color: rgb(145, 139, 139);
-    font-size: 30px;
-    line-height: 70px;
-    float: right;
-    margin-right: 40px;
-   cursor: pointer;
-   display: none;
-
-}
-@media(max-width:900px){
-    .logo img{
-        width: 80px;
-    }
-    .list ul{
-        margin-right: 20px;
-        
-    }
-    .list a{
-        font-size: 17px;
-    }
-
-}
-@media(max-width:600px){
-.list ul{
-  
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: rgb(252, 249, 249);
-    top: 80px; left: -60px;
-    text-align: center;
-}
-.list li{
-    display: block;
-}
-.list a{
-    font-size: 20px;
-}
-div #icon{
-    display: block;
-}
-}
-img{
-    width: 200px;
-
-}
-ul li a{
-    text-decoration: none;
-    color: rgb(7, 7, 7);
-    margin: 10px;
-    
-}
-
-ul li {
-    list-style: none;
-    display: inline;
-    padding: 20px;
-    font-size: 20px;
-}
-div ul {
-    background-color: rgb(254, 255, 255) ;
-    float: left;
-    border-radius: 20px;
-    padding: 5px;
-    margin-left: 50px;
-    margin-right: 50px;
-    
-    
-}
-.h p{
-    color: white;
-    width: 90%;
-    margin-left: 200px;
-    font-size: 20px;
-}
-h2 {
-    color:white;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline;
-}
 .one{
-    width: 100%;
-    text-align: center;
-
+  background-color: #E2D597;
+  width: 101.2%;
+  margin: -8px;
+  height: 350px;
+margin-top:-15px;
+  
 }
-
-.one div{
-    margin: 2%;
-    width: calc(70% / 4);
-    background-color: rgb(3, 3, 3);
-    float: left;
-    margin-top: 10px;
-    
+.img{
+  width: 250px;
+  height: 350px;
+  border-radius: 20px;
 }
-
-img{
-    width: 100%;
-  }
-.piece{
-      color: white;
-      font-size: 20px;
+.img:hover{
+  filter: brightness(60%);
+}
+.div{
+  padding-left: 7%;
+ 
+}
+h2{
+  margin-left: 530px;
+  font-size: 30px;
+  color: #83111F;
 }
 
 a{
-    color: rgb(253, 252, 252);
+  text-decoration: none;
+}
+.piece{
+  font-size: 20px;
+  color: black;
+  
+  
+}
+.star{
+  width: 16px;
+}
+.div div{
+  
+ margin: 1%;
+  width: calc(90% / 3);
+  float: left;
+  margin-top: 30px;
+}
+.p{
+  color: #83111F  ;
+  padding: 10px;
+  font-size: 15px;
+  position: absolute;
+ top: 53px;
+ left: 33px;
+}
+
+.logo{
+  width: 80px;
+  padding: 30px;
+  position: absolute;
+ 
+}
+ul li{
+  display: inline;
+  float: right;
+ 
+  padding-top: 50px;
+
+padding-right: 70px;
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+.a:hover{
+  color: #83111F;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #83111F;
+}
+
+.h1{
+  margin-top: 130px;
+ text-align: center;
+ margin-right: 40px;
+ font-size: 40px;
+}
+span{
+  color: #83111F;
+}
+input[type=text] {
+  width: 200px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: white;
+  background-image: url('');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+  height: 30px;
+  
 }
 
 input[type=text] {
-    width: 200px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 15px;
-    background-color: white;
-    background-image: url('');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    transition: width 0.4s ease-in-out;
-    height: 30px;
-    
-  }
-  
-  input[type=text]:focus {
-    width: 100%;
-   
-  }
+  width: 45%;
+ height: 35px;
+}
 
-  .in-search{
-      float: left;
-      
-  }
-  .search{
-      width: 30px;
-  }
+.in-search{
+ 
+  margin-bottom: -200px;
+ margin-top: 10px;
+ margin-left: 450px;
+    
+}
+.search{
+    width: 23px;
+ margin-left: 460px;
+ margin-top: 16px;
+ position: absolute;
+
+}
+.list{
+  background-color: white;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -90px;
+  height: 200px;
+  border-radius: 10px;
+}
+.list ul li {
+  margin-top: -20px;
+ margin-left: 20px;
+}
+#border{
+  border: 2px solid #83111F;
+  padding: 3px;
+}

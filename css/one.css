@@ -4,19 +4,19 @@ img{
 
 }
 body{
-    background-color: rgb(18, 92, 76);
+    background-color: #83111F;
     margin: 50px;
 }
 p{
-    background-color: rgb(8, 8, 8);
-    color: rgb(24, 119, 99);
+    background-color: #E2D597;
+    color: #83111F;
     font-size: 20px;
     
     margin: 300px;
     border-radius: 20px 20px 0px 0px ;padding: 20px; 
     margin-bottom: 0px; 
     text-align: center;
-    border-bottom: 3px rgb(18, 92, 76) solid;
+    border-bottom: 3px #83111F solid;
     margin-top: 0px;
     margin-bottom: 0px;
     
